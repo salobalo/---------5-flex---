@@ -7,9 +7,24 @@
   color: #ffffff;
 }
 
+@font-face {
+  font-family: firago-regular;
+  src: url(../fonts/FiraGO-Regular.ttf);
+}
+@font-face {
+  font-family: firago-semibold;
+  src: url(../fonts/FiraGO-SemiBold.ttf);
+}
+
+.tserili{
+  font-family: firago-regular;
+}
+
 
 body {
   background-color: #000000;
+    font-family: firago-regular;
+
 }
 
  h1, .info-container p, .product-container p
@@ -19,9 +34,17 @@ body {
   font-size:20px;
 }
 
+nav .mtavari, .navigacia .produqcia,
+.product-description .konvertebi {
+  font-family: firago-semibold;
+}
+
+
 header nav{
   font-size:16px;
 }
+
+
 
 .order-details h2, .order-now{
 font-size: 24px;
