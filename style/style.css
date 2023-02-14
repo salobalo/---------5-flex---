@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+
+body {
+  background-color: #000000;
+}
+
+ h1, .info-container p, .product-container p
+ , .product-box .price, 
+ .product-description p, .order-details p
+ {
+  font-size:20px;
+}
+
+header nav{
+  font-size:16px;
+}
+
+.order-details h2, .order-now{
+font-size: 24px;
+}
+
+header {
+  /* background-color: rgb(111, 0, 255); */
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  padding: 30px;
+ 
+}
+
+.border{
+  border-bottom: 1px solid #ffffff;
+}
+
+h1 {
+  margin-left: 150px;
+}
+
+.navigacia {
+  margin-right: 150px;
+}
+
+ul {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tserili {
+  font-size: 128px;
+  letter-spacing: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.info-container {
+  /* background-color: brown; */
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.description {
+  width: 30%;
+  align-items: center;
+}
+.pirvelip {
+  margin-bottom: 20px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  width: 464px;
+  margin: 10px;
+}
+
+.product-img {
+  height: 628px;
+  overflow: hidden;
+}
+.product-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.product-img .img3 {
+  transform: rotate(360deg);
+}
+
+footer {
+  height: 200px;
+  /* background-color: chartreuse; */
+  border-top: 1px solid #ffffff;
+}
+
+.footer {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+}
+
+.footer-img {
+  width: 100px;
+  height: 100px;
+}
+
+.footer-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-p {
+  padding: 10px;
+}
+
+.footer-p span {
+  font-size: 26px;
+}
+
+/* -------------product page */
+
+
+.productpage {
+  display: flex;
+  width: 90%;
+  margin: 50px auto;
+}
+  /* padding: 50px; */
+
+.konvertebi-container {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product-box {
+ margin: 10px;
+  width: 20%;
+  /* background-color: blueviolet; */
+}
+
+.surati{
+width: 100%;
+height: 270px;
+overflow: hidden;
+}
+
+.surati img {
+  width: 100%;
+  height: 100%;
+}
+
+.price{
+text-align: center;
+margin-top: 8px;
+}
+
+.product-description {
+  text-align: end;
+}
+
+.product-description p {
+  margin: 30px;
+}
+
+
+/* ---------mesame gverdis stilebi */
+
+.inner-page-main{
+  display: flex;
+  padding: 92px 0 92px 60px;
+
+}
+
+.inner-page-surati{
+  width: 400px;
+  height:540px;
+  overflow: hidden;
+  
+}
+.inner-page-surati img{
+  width: 100%;
+  height: 100%;
+}
+
+.order-details-box{
+  /* background-color: rgb(81, 254, 81); */
+  width: 500px;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 24px;
+}
+
+.order-details{
+  margin-left: 27px;
+}
+
+.order-details h2{
+    margin-bottom: 40px;
+}
+
+.order-details p{
+  margin-bottom: 15px;
+}
+
+.color-box{
+  display: flex;
+}
+
+.color-box p{
+  margin-right: 10px;
+}
+
+.colors{
+  display: flex;
+}
+
+.feri1 , .feri2 , .feri3 , .feri4{
+  width: 20px;
+  height: 20px;
+  background-color: #F6B058;
+  border-radius: 30px;
+  margin-left: 5px;
+}
+
+.feri2{
+  background-color: #3E93F6;
+
+}
+.feri3{
+  background-color: #FF7070;
+
+}
+.feri4{
+  background-color: #E8E8E8;
+}
+
+.navigacia a:active{
+  font-weight: 900;
+}
